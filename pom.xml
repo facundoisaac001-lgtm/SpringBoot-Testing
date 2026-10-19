@@ -38,7 +38,7 @@
     <!-- Spring Boot WebMVC -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-webmvc</artifactId>
+        <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
     <!-- Kotest dependencies -->
@@ -83,13 +83,19 @@
     <!-- Testing dependencies -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-webmvc-test</artifactId>
+        <artifactId>spring-boot-starter-test</artifactId>
         <scope>test</scope>
     </dependency>
 
     <dependency>
         <groupId>org.jetbrains.kotlin</groupId>
         <artifactId>kotlin-test-junit5</artifactId>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.mockk</groupId>
+        <artifactId>mockk-jvm</artifactId>
+        <version>1.13.10</version>
         <scope>test</scope>
     </dependency>
 </dependencies>
